@@ -10,7 +10,11 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://*.vercel.app'],
+  origin: [
+    'http://localhost:5173',
+    'https://traveldna-server-production.up.railway.app',
+    /\.vercel\.app$/
+  ],
   credentials: true,
 }));
 app.use(express.json());
