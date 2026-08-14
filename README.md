@@ -74,7 +74,7 @@ Relationships:
 ### 2. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/traveldna.git
+git clone https://github.com/prajwalpoojary/traveldna.git
 cd traveldna
 cd server && npm install
 cd ../client && npm install
